@@ -35,6 +35,10 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "ElectraPlayer",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
