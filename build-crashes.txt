@@ -1,0 +1,20 @@
+LowLevelFatalError [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\HAL\MallocBinned2.cpp] [Line: 1438] 
+FMallocBinned2 Attempt to realloc an unrecognized block 0000019D516B0000   canary == 0x0 != 0xe3
+
+
+0x00007ff65d39e14e Yunache-Win64-Shipping.exe!FMemory::Free() []
+0x00007ff65e7e491e Yunache-Win64-Shipping.exe!FFinalPostProcessSettings::~FFinalPostProcessSettings() []
+0x00007ff65e7e67e3 Yunache-Win64-Shipping.exe!FSceneView::~FSceneView() []
+0x00007ff65e7f4f64 Yunache-Win64-Shipping.exe!FSceneView::`vector deleting destructor'() []
+0x00007ff65fb969e7 Yunache-Win64-Shipping.exe!FSceneViewFamilyContext::~FSceneViewFamilyContext() []
+0x00007ff65f776add Yunache-Win64-Shipping.exe!UGameViewportClient::Draw() []
+0x00007ff65fd35d47 Yunache-Win64-Shipping.exe!FViewport::Draw() []
+0x00007ff65f730021 Yunache-Win64-Shipping.exe!UGameEngine::RedrawViewports() []
+0x00007ff65f7382dc Yunache-Win64-Shipping.exe!UGameEngine::Tick() []
+0x00007ff65fe46655 Yunache-Win64-Shipping.exe!FEngineLoop::Tick() []
+0x00007ff65fe4e25c Yunache-Win64-Shipping.exe!GuardedMain() []
+0x00007ff65fe4e2da Yunache-Win64-Shipping.exe!GuardedMainWrapper() []
+0x00007ff65fe4f2ec Yunache-Win64-Shipping.exe!LaunchWindowsStartup() []
+0x00007ff65fe575e4 Yunache-Win64-Shipping.exe!WinMain() []
+0x00007ff661e50b12 Yunache-Win64-Shipping.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+0x00007ffa9c6d7344 KERNEL32.DLL!UnknownFunction []
